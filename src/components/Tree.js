@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import values from 'lodash/values';
 import PropTypes from 'prop-types';
 
@@ -43,7 +43,7 @@ const data = {
   },
 };
 
-export default class Tree extends Component {
+export default class Tree extends React.Component {
 
   state = {
     nodes: data,
