@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFile, FaFolder, FaFolderOpen, FaChevronDown, FaChevronRight } from 'react-icons/fa';
+import {AddCircle, RemoveCircle} from '@material-ui/icons';
 import styled from 'styled-components';
 import last from 'lodash/last';
 import PropTypes from 'prop-types';
@@ -41,8 +42,8 @@ const TreeNode = (props) => {
         
         <NodeIcon marginRight={10}>
           { node.type === 'file' && <FaFile /> }
-          { node.type === 'folder' && node.isOpen === true && <FaFolderOpen /> }
-          { node.type === 'folder' && !node.isOpen && <FaFolder /> }
+          { node.type === 'folder' && node.isOpen === true && <RemoveCircle /> }
+          { node.type === 'folder' && !node.isOpen && <AddCircle /> }
         </NodeIcon>
         
 

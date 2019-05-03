@@ -9,35 +9,35 @@ const data = {
     path: '/root',
     type: 'folder',
     isRoot: true,
-    children: ['/root/david', '/root/jslancer'],
+    children: ['/root/branch-1', '/root/branch-2'],
   },
-  '/root/david': {
-    path: '/root/david',
+  '/root/branch-1': {
+    path: '/root/branch-1',
     type: 'folder',
-    children: ['/root/david/readme.md'],
+    children: ['/root/branch-1/readme.md'],
   },
-  '/root/david/readme.md': {
-    path: '/root/david/readme.md',
+  '/root/branch-1/readme.md': {
+    path: '/root/branch-1/readme.md',
     type: 'file',
     content: 'Thanks for reading me me. But there is nothing here.'
   },
-  '/root/jslancer': {
-    path: '/root/jslancer',
+  '/root/branch-2': {
+    path: '/root/branch-2',
     type: 'folder',
-    children: ['/root/jslancer/projects', '/root/jslancer/vblogs'],
+    children: ['/root/branch-2/projects', '/root/branch-2/vblogs'],
   },
-  '/root/jslancer/projects': {
-    path: '/root/jslancer/projects',
+  '/root/branch-2/projects': {
+    path: '/root/branch-2/projects',
     type: 'folder',
-    children: ['/root/jslancer/projects/treeview'],
+    children: ['/root/branch-2/projects/treeview'],
   },
-  '/root/jslancer/projects/treeview': {
-    path: '/root/jslancer/projects/treeview',
+  '/root/branch-2/projects/treeview': {
+    path: '/root/branch-2/projects/treeview',
     type: 'folder',
     children: [],
   },
-  '/root/jslancer/vblogs': {
-    path: '/root/jslancer/vblogs',
+  '/root/branch-2/vblogs': {
+    path: '/root/branch-2/vblogs',
     type: 'folder',
     children: [],
   },
