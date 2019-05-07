@@ -36,9 +36,9 @@ const TreeNode = (props) => {
   return (
     <React.Fragment>
       <StyledTreeNode level={level} type={node.type} onClick={() => onToggle(node)}>
-        <NodeIcon>
+        {/* <NodeIcon>
           { node.type === 'folder' && (node.isOpen ? <FaChevronDown /> : <FaChevronRight />) }
-        </NodeIcon>
+        </NodeIcon> */}
         
         <NodeIcon marginRight={10}>
           { node.type === 'file' && <FaFile /> }

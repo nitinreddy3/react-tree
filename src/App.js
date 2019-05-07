@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import FileExplorer from './components/FileExplorer';
+import EnhancedTable from './components/EnhancedTable';
 
 const App = () => {
 	return (
@@ -10,7 +11,9 @@ const App = () => {
 			</header>
 			<div className="App-intro">
 				<FileExplorer />
+				<EnhancedTable />
 			</div>
+
 		</div>
 	);
 };
